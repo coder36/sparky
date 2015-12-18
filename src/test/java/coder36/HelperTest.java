@@ -17,13 +17,20 @@ public class HelperTest {
     }
 
     @Test
-    public void test_niceDate_converts_26_Jan() {
+    public void niceDate_converts_26_Jan() {
         assertThat( helper.niceDate("2015-01-26"), is(equalTo("26 Jan")) );
     }
 
     @Test
-    public void test_niceDate_converts_10_Dec() {
+    public void niceDate_converts_10_Dec() {
         assertThat( helper.niceDate("2015-12-10"), is(equalTo("10 Dec")) );
     }
+
+    @Test
+    public void niceAmmount_formats_10_1_as_£10_10() {
+        assertThat( helper.niceAmount(10.1), is(equalTo("£10.10")) );
+    }
+
+
 
 }

@@ -1,0 +1,9 @@
+{
+  "dev": {
+    "bill_json" : "http://localhost:4567/bill.json"
+  },
+
+  "prod": {
+    "bill_json" : "https://pure-savannah-9942.herokuapp.com/billa.json"
+  }
+}

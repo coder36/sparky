@@ -112,3 +112,4 @@ I see Spark being used for single page apps (ie. javascript client side apps), f
 * [Spark Home page](http://sparkjava.com/)
 * [Spark Github](https://github.com/perwendel/spark)
 * [Reasons to replace your jsps with freemarker](http://blog.stackhunter.com/2014/01/17/10-reasons-to-replace-your-jsps-with-freemarker-templates)
+* [Blade a web framework very similar to Spark](https://github.com/biezhi/blade)
